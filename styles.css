@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+  padding: 1em;
+  opacity: 100%;
+}
+
+#particles-js {
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  text-transform: none;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron b {
+  font-weight: 900;
+}
+
+.animate {
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a,
+b#dev,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 1em;
+  opacity: 100%;
+  background-color: #ffffffb8;
+}
+
+main {
+  padding-top: 2em;
+}
+
+[class^='devicon'] {
+  color: #2f4f4f;
+}
+
+#particles-js {
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
